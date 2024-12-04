@@ -747,14 +747,22 @@ function showReserveOverlay(selectedCity = null) {
 }
 
 .filter-container {
-    flex-shrink: 0;
-    width: 100%; /* Full width container */
-    overflow-x: auto; /* Smooth horizontal scrolling */
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    width: 100vw; /* Full viewport width */
+    max-width: 100vw; /* Override any max-width constraints */
+    margin-left: calc(-50vw + 50%); /* Center container */
+    padding: 0 15px; /* Optional side padding */
+    box-sizing: border-box;
 }
 
 .filter-container::-webkit-scrollbar {
     display: none; /* Hide scrollbar in Webkit browsers */
+}
+
+@media (max-width: 768px) {
+    .filter-container {
+        margin-left: calc(-50vw + 50%);
+        width: 100vw;
+    }
 }
 
 .filter-buttons {
