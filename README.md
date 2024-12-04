@@ -732,8 +732,8 @@ function showReserveOverlay(selectedCity = null) {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    margin-bottom: 10px; 
-    padding-bottom: 10px; 
+    margin-bottom: 15px; 
+    padding-bottom: 20px; 
     border-bottom: 1px solid rgba(255, 215, 0, 0.2);
     width: 100%; /* Ensure full width */
 }
