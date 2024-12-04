@@ -732,8 +732,8 @@ function showReserveOverlay(selectedCity = null) {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    margin-bottom: 20px; 
-    padding-bottom: 15px; 
+    margin-bottom: 10px; 
+    padding-bottom: 10px; 
     border-bottom: 1px solid rgba(255, 215, 0, 0.2);
     width: 100%; /* Ensure full width */
 }
@@ -760,7 +760,7 @@ function showReserveOverlay(selectedCity = null) {
 .filter-buttons {
     display: flex; /* Changed from inline-flex to flex */
     justify-content: flex-start; /* Align buttons to start */
-    gap: 10px;
+    gap: 4px;
     padding-bottom: 10px;
     width: 100%; /* Full width */
     overflow-x: auto; /* Allow horizontal scrolling if needed */
@@ -773,14 +773,16 @@ function showReserveOverlay(selectedCity = null) {
 
 .filter-btn {
     margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 5px;
     flex-shrink: 0; /* Prevent buttons from shrinking */
     background: rgba(255, 215, 0, 0.1);
     color: var(--text-light);
     border: 1px solid rgba(255, 215, 0, 0.2);
     padding: 10px 15px;
     border-radius: 25px;
-    cursor: pointer;
     transition: all 0.3s ease;
+    cursor: pointer;
     white-space: nowrap;
     font-weight: 500;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -812,6 +814,7 @@ function showReserveOverlay(selectedCity = null) {
 }
 
 .reserve-grid {
+    margin-top: 10px;
     display: grid; 
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 20px; 
