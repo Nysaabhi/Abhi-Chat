@@ -331,13 +331,13 @@
                         </a>
                         <span>WhatsApp</span>
                     </div>
-                    <div class="nav-item" data-page="rent">
-                        <a href="https://example.com/rent">
-                            <i class="fas fa-handshake"></i>
+                    <div class="nav-item" data-page="slot">
+                        <a href="https://example.com/slot">
+                            <i class="fas fa-calendar-alt"></i>
                         </a>
-                        <span>Rent</span>
-                    </div>
-                    <div class="nav-item" data-page="franchise">
+                     <span>Slot</span>
+                   </div>
+                   <div class="nav-item" data-page="franchise">
                         <a href="https://example.com/franchise">
                             <i class="fas fa-store"></i>
                         </a>
@@ -640,11 +640,11 @@ function showReserveOverlay(selectedCity = null) {
                         </a>
                         <span>WhatsApp</span>
                     </div>
-                    <div class="nav-item" data-page="rent">
-                        <a href="https://example.com/rent">
-                            <i class="fas fa-handshake"></i>
+                    <div class="nav-item" data-page="slot">
+                         <a href="https://example.com/slot">
+                    <i class="fas fa-calendar-alt"></i>
                         </a>
-                        <span>Rent</span>
+                      <span>Slot</span>
                     </div>
                     <div class="nav-item" data-page="franchise">
                         <a href="https://example.com/franchise">
